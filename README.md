@@ -1,4 +1,4 @@
-# Netflix Movies and TV Shows Data Analysis using SQL
+#    Netflix Movies and TV Shows Data Analysis using SQL
 
 ![](https://github.com/najirh/netflix_sql_project/blob/main/logo.png)
 
@@ -53,7 +53,7 @@ FROM netflix
 GROUP BY type;
 ```
 
-**Objective:** Determine the distribution of content types on Netflix.
+**Objective:** Compare the number of Movies and TV Shows available on Netflix to analyze the type of content dominating the platform.
 
 ### Query 2: Find the most common rating for movies and TV shows
 
@@ -73,7 +73,7 @@ FROM cte1
 WHERE ranking = 1;
 ```
 
-**Objective:** Identify the most frequently occurring rating for each type of content.
+**Objective:** Identify the most frequently assigned ratings for Movies and TV Shows, helping to understand content certification trends.
 
 ### Query 3: Determine the dynamics of content addition by year for each genre and display the increase/decrease compared to the previous year
 
@@ -107,7 +107,7 @@ SELECT
 FROM content_by_year_genre_table
 ```
 
-**Objective:** Retrieve all movies released in a specific year.
+**Objective:** Track the growth or decline of content additions in various genres over the years.
 
 ### Query 4: Find countries that have added content consistently every year for the past 5 years
 
@@ -129,7 +129,7 @@ ORDER BY 1;
 
 ```
 
-**Objective:** Identify the top 5 countries with the highest number of content items.
+**Objective:** Identify countries that have consistently added content every year for the last 5 years.
 
 ### Query 5: Divide the content into groups by duration, for example: short (<30 min), medium (30-90 min), long (>90 min)
 
@@ -150,7 +150,7 @@ WHERE
 	duration IS NOT NULL;
 ```
 
-**Objective:** Find the movie with the longest duration.
+**Objective:** Group movies into "Short", "Medium", and "Long" based on their duration.
 
 ### Query 6: Identify the genres that have the greatest growth in content over the last 3 years (year over year).
 
@@ -211,7 +211,7 @@ SELECT
 FROM avarage_growth_content_cte;
 ```
 
-**Objective:** Retrieve content added to Netflix in the last 5 years.
+**Objective:** Analyze which genres have experienced the highest year-over-year growth in content addition over the past three years, highlighting trends in audience preferences and content strategies.
 
 ### Query 7: Find the top 5 countries with the most content on Netflix
 
@@ -225,7 +225,7 @@ ORDER BY 2 DESC
 LIMIT 5;
 ```
 
-**Objective:** List all content directed by 'Rajiv Chilaka'.
+**Objective:** Find the countries contributing the most content to Netflix.
 
 ### Query 8: Identify the longest movie or TV show duration
 
@@ -243,7 +243,7 @@ LIMIT 1;
 
 ```
 
-**Objective:** Identify TV shows with more than 5 seasons.
+**Objective:** Find the movie or TV show with the longest runtime, providing insights into the content length preferences for extended viewing.
 
 ### Query 9: Find content added in the last 5 years
 
@@ -255,7 +255,7 @@ FROM netflix
 WHERE TO_DATE(date_added, 'Month DD, YYYY') >= CURRENT_DATE - INTERVAL '5 years';
 ```
 
-**Objective:** Count the number of content items in each genre.
+**Objective:** Retrieve content that has been added to Netflix in the past five years, focusing on recent content trends and additions.
 
 ### Query 10: Find all the movies/TV shows by director 'Rajiv Chilaka'
 
@@ -266,7 +266,7 @@ FROM netflix
 WHERE director ILIKE '%Rajiv Chilaka%';
 ```
 
-**Objective:** Calculate and rank years by the average number of content releases by India.
+**Objective:**  List all movies and TV shows directed by 'Rajiv Chilaka', showcasing the contribution of this specific director to Netflix's content library.
 
 ### Query 11: List all TV shows with more than 5 seasons
 
@@ -281,7 +281,7 @@ WHERE
 	 LEFT(duration, POSITION('S' IN duration) - 1)::int > 5;
 ```
 
-**Objective:** Retrieve all movies classified as documentaries.
+**Objective:** Identify TV shows with more than 5 seasons to understand which series have had significant longevity and viewer engagement on the platform.
 
 ### Query 12: Count the number of content items in each genre
 
@@ -294,7 +294,7 @@ GROUP BY 1
 ORDER BY 2 DESC;
 ```
 
-**Objective:** List content that does not have a director.
+**Objective:**Count the number of content items in each genre to evaluate which genres are most prominent on Netflix and cater to diverse audience preferences.
 
 ### Query 13: Find the year and average amount of content released in India on Netflix, and return the 5 years with the highest averages
 
@@ -313,7 +313,7 @@ GROUP BY year
 ORDER BY avg_content_per_year DESC;
 ```
 
-**Objective:** Count the number of movies featuring 'Salman Khan' in the last 10 years.
+**Objective:** Analyze content release patterns in India, identifying the years with the highest average content output and trends in Indian media contributions to Netflix.
 
 ### Query 14: Categorize the content based on the presence of the keywords 'kill' and 'violence' in the description field. 
 ### Label content containing these keywords as 'Bad' and all other content as 'Good'. Count how many items fall into each category.
@@ -335,7 +335,7 @@ FROM Good_or_Bad
 GROUP BY 1;
 ```
 
-**Objective:** Identify the top 10 actors with the most appearances in Indian-produced movies.
+**Objective:** Classify content as "Violent" or "Non-Violent" based on the presence of specific keywords in the descriptions.
 
 
 ## Findings and Conclusion
@@ -349,7 +349,7 @@ This analysis provides a comprehensive view of Netflix's content and can help in
 
 
 
-## Author - Zero Analyst
+## Author - Maxim Galushko
 
 This project is part of my portfolio, showcasing the SQL skills essential for data analyst roles. If you have any questions, feedback, or would like to collaborate, feel free to get in touch!
 
@@ -357,7 +357,6 @@ This project is part of my portfolio, showcasing the SQL skills essential for da
 
 For more content on SQL, data analysis, and other data-related topics, make sure to follow me on social media and join our community:
 
-- **YouTube**: [Subscribe to my channel for tutorials and insights](https://www.youtube.com/@zero_analyst)
 - **Instagram**: [Follow me for daily tips and updates](https://www.instagram.com/zero_analyst/)
 - **LinkedIn**: [Connect with me professionally](https://www.linkedin.com/in/najirr)
 - **Discord**: [Join our community to learn and grow together](https://discord.gg/36h5f2Z5PK)
