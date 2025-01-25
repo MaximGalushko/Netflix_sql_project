@@ -1,5 +1,6 @@
-#      Netflix Movies and TV Shows Data Analysis using SQL
-
+<div align="center">
+  <h1>Netflix Movies and TV Shows Data Analysis using SQL</h1>
+</div>
 ![](https://github.com/najirh/netflix_sql_project/blob/main/logo.png)
 
 ## Overview
@@ -372,7 +373,7 @@ feedback, or discuss collaboration opportunities!
 
 Feel free to connect with me:
 
-- **Instagram**: @Maxim_Galushk0
+- **Telegram**: @Maxim_Galushk0
 - **LinkedIn**: [Connect with me](https://www.linkedin.com/in/maxim-galushko/)
 
 Thank you for your interest in my project, and I look forward to working with you!
