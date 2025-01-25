@@ -330,7 +330,7 @@ ORDER BY avg_content_per_year DESC;
 
 
 ### Query 14: Categorize the content based on the presence of the keywords 'kill' and 'violence' in the description field. 
-### Label content containing these keywords as 'Bad' and all other content as 'Good'. Count how many items fall into each category.
+Label content containing these keywords as 'Bad' and all other content as 'Good'. Count how many items fall into each category.
 
 ```sql
 WITH Good_or_Bad AS (
