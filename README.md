@@ -365,14 +365,14 @@ This analysis provides a comprehensive view of Netflix's content and can help in
 
 ## Author - Maxim Galushko
 
-This project is part of my portfolio, showcasing the SQL skills essential for data analyst roles. If you have any questions, feedback, or would like to collaborate, feel free to get in touch!
+This project is part of my portfolio, showcasing SQL skills essential for a data analyst role. I am actively seeking job opportunities in data analysis and would be happy to answer any questions, receive
+feedback, or discuss collaboration opportunities!
 
-### Stay Updated and Join the Community
+### Get in Touch
 
-For more content on SQL, data analysis, and other data-related topics, make sure to follow me on social media and join our community:
+Feel free to connect with me:
 
-- **Instagram**: [Follow me for daily tips and updates](https://www.instagram.com/zero_analyst/)
-- **LinkedIn**: [Connect with me professionally](https://www.linkedin.com/in/najirr)
-- **Discord**: [Join our community to learn and grow together](https://discord.gg/36h5f2Z5PK)
+- **Instagram**: @Maxim_Galushk0
+- **LinkedIn**: [Connect with me](https://www.linkedin.com/in/maxim-galushko/)
 
-Thank you for your support, and I look forward to connecting with you!
+Thank you for your interest in my project, and I look forward to working with you!
