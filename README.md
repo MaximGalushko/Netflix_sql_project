@@ -1,6 +1,6 @@
 <div align="center">
   <h1>Netflix Movies and TV Shows Data Analysis using SQL</h1>
-  <img src="https://github.com/najirh/netflix_sql_project/blob/main/logo.png" alt="Netflix Logo" width="600">
+  <img src="https://github.com/najirh/netflix_sql_project/blob/main/logo.png" alt="Netflix Logo" width="900">
 </div>
 
 ## Overview
